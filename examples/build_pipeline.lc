@@ -1,0 +1,14 @@
+--[[
+Example: Build Pipeline
+Demonstrates build_pipeline functionality
+]]
+
+-- Example code for build_pipeline
+
+local Example = {}
+
+function Example.run()
+  print("Running build_pipeline example")
+end
+
+return Example

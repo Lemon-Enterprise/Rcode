@@ -1,0 +1,14 @@
+--[[
+Example: Workspace Management
+Demonstrates workspace_management functionality
+]]
+
+-- Example code for workspace_management
+
+local Example = {}
+
+function Example.run()
+  print("Running workspace_management example")
+end
+
+return Example

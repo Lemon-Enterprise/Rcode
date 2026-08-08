@@ -1,0 +1,14 @@
+--[[
+Example: Custom Plugin
+Demonstrates custom_plugin functionality
+]]
+
+-- Example code for custom_plugin
+
+local Example = {}
+
+function Example.run()
+  print("Running custom_plugin example")
+end
+
+return Example

@@ -1,0 +1,14 @@
+--[[
+Example: Formatter Plugin
+Demonstrates formatter_plugin functionality
+]]
+
+-- Example code for formatter_plugin
+
+local Example = {}
+
+function Example.run()
+  print("Running formatter_plugin example")
+end
+
+return Example

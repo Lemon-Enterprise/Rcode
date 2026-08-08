@@ -1,0 +1,6 @@
+-- schemas configuration
+-- File: lc_lang.json
+
+return {
+  -- Configuration options
+}

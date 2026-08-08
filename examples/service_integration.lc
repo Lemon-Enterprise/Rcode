@@ -1,0 +1,14 @@
+--[[
+Example: Service Integration
+Demonstrates service_integration functionality
+]]
+
+-- Example code for service_integration
+
+local Example = {}
+
+function Example.run()
+  print("Running service_integration example")
+end
+
+return Example

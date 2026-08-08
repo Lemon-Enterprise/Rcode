@@ -1,0 +1,14 @@
+--[[
+Example: Run Configuration
+Demonstrates run_configuration functionality
+]]
+
+-- Example code for run_configuration
+
+local Example = {}
+
+function Example.run()
+  print("Running run_configuration example")
+end
+
+return Example
