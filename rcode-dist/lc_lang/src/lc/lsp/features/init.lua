@@ -1,1 +1,0 @@
-return { formatting = require("lc.lsp.features.formatting"), rename = require("lc.lsp.features.rename"), references = require("lc.lsp.features.references"), semantic_tokens = require("lc.lsp.features.semantic_tokens") }

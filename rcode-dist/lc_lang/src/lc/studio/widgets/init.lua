@@ -1,1 +1,0 @@
-return { button = require("lc.studio.widgets.button"), text = require("lc.studio.widgets.text"), image = require("lc.studio.widgets.image"), column = require("lc.studio.widgets.column"), row = require("lc.studio.widgets.row"), stack = require("lc.studio.widgets.stack") }

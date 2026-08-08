@@ -1,1 +1,0 @@
-return { identifier = "identifier", keyword = "keyword", number = "number", string = "string", format_string = "format_string", version = "version", symbol = "symbol", newline = "newline", eof = "eof" }
