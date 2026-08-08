@@ -1,0 +1,14 @@
+--[[
+Example: Advanced Editor
+Demonstrates advanced_editor functionality
+]]
+
+-- Example code for advanced_editor
+
+local Example = {}
+
+function Example.run()
+  print("Running advanced_editor example")
+end
+
+return Example

@@ -1,0 +1,1 @@
+return { scope = require("lc.analysis.passes.scope_building"), types = require("lc.analysis.passes.type_checking"), imports = require("lc.analysis.passes.import_resolution"), widgets = require("lc.analysis.passes.widget_validation") }

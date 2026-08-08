@@ -1,0 +1,14 @@
+--[[
+Example: Theme Creation
+Demonstrates theme_creation functionality
+]]
+
+-- Example code for theme_creation
+
+local Example = {}
+
+function Example.run()
+  print("Running theme_creation example")
+end
+
+return Example

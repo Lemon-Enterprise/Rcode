@@ -1,0 +1,14 @@
+--[[
+Example: Multi File Project
+Demonstrates multi_file_project functionality
+]]
+
+-- Example code for multi_file_project
+
+local Example = {}
+
+function Example.run()
+  print("Running multi_file_project example")
+end
+
+return Example

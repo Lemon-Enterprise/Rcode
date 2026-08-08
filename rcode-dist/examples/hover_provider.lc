@@ -1,0 +1,14 @@
+--[[
+Example: Hover Provider
+Demonstrates hover_provider functionality
+]]
+
+-- Example code for hover_provider
+
+local Example = {}
+
+function Example.run()
+  print("Running hover_provider example")
+end
+
+return Example

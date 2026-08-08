@@ -1,0 +1,6 @@
+-- schemas configuration
+-- File: workspace.json
+
+return {
+  -- Configuration options
+}

@@ -1,0 +1,6 @@
+-- schemas configuration
+-- File: config.json
+
+return {
+  -- Configuration options
+}

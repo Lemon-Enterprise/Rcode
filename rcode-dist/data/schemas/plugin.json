@@ -1,0 +1,6 @@
+-- schemas configuration
+-- File: plugin.json
+
+return {
+  -- Configuration options
+}

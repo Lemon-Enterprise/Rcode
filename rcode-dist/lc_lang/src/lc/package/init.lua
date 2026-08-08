@@ -1,0 +1,1 @@
+return { manifest = require("lc.package.manifest"), lspec = require("lc.package.lspec"), resolver = require("lc.package.resolver"), registry = require("lc.package.registry"), lockfile = require("lc.package.lockfile") }

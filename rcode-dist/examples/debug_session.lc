@@ -1,0 +1,14 @@
+--[[
+Example: Debug Session
+Demonstrates debug_session functionality
+]]
+
+-- Example code for debug_session
+
+local Example = {}
+
+function Example.run()
+  print("Running debug_session example")
+end
+
+return Example
