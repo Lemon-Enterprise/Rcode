@@ -1,0 +1,32 @@
+-- Simple calculator example
+
+pub fn add(a: Number, b: Number) -> Number {
+  return a + b
+}
+
+pub fn subtract(a: Number, b: Number) -> Number {
+  return a - b
+}
+
+pub fn multiply(a: Number, b: Number) -> Number {
+  return a * b
+}
+
+pub fn divide(a: Number, b: Number) -> Result(Number) {
+  if b == 0 {
+    return Error("Division by zero")
+  }
+  return Ok(a / b)
+}
+
+pub fn main() -> Result() {
+  let x = 10
+  let y = 5
+  
+  let sum = add(x, y)
+  let difference = subtract(x, y)
+  let product = multiply(x, y)
+  let quotient = divide(x, y)
+  
+  return Ok(sum)
+}

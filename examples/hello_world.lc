@@ -1,0 +1,24 @@
+@import <LemonStudioFramework>
+@import <Color::Hex>
+
+pub fn app<LSApp>(
+  name = @[LSString]"Hello World App"
+  version = @[[LSDouble || LSTriple] -> format = f"v{LSDouble || LSTriple}"]v1.0
+  identifier = @[[LSString] -> path = String::isPath(True)]"com.example.helloworld"
+) -> Result(LSPlatform::Mobile("Android")) {
+  pub fn widget<LSWidget>(let el) {
+    LSWidget(|el| -> {
+      let text = @new text(
+        text = "Hello, World!"
+        header = "h1"
+        color = Hex::new("#007DFF")
+      )
+      
+      let paragraph = @new text(
+        text = "This is a sample Lemon Studio application"
+        header = "p"
+        color = Hex::new("#333333")
+      )
+    })
+  }
+}
